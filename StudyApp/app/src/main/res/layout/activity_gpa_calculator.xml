@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="@string/calculate"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:id="@+id/text_view1"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/editText1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:hint="@string/gpa1"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/text_view1"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_border"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:autofillHints="" />
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_below="@id/editText1"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:background="@drawable/round_border"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/gpa2"
+                android:layout_marginVertical="20dp"
+                android:gravity="center"
+                android:autofillHints=""/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText2"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/round_bg"
+                android:text="@string/gpa3"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_below="@id/button"
+                android:text="@string/gpa4"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_bg"
+                android:layout_centerHorizontal="true"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_below="@id/button2"
+                android:textSize="30sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/button3"
+                android:layout_below="@id/textView"
+                android:text="@string/erase"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/round_bg_2"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+</LinearLayout>

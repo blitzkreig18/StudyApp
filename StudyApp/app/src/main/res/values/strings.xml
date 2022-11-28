@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Study App</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="signout">Sign Out</string>
+    <string name="already1">Already have an account? Sign In Here</string>
+    <string name="already2">Not Registered? Sign Up Here</string>
+    <string name="Attend">Take Notes</string>
+    <string name="timetable">To-Do List</string>
+    <string name="budget">Expenses Manager</string>
+    <string name="company">Companies Visited</string>
+    <string name="campus">Campus Portal</string>
+    <string name="calculate">Calculate your GPA!</string>
+    <string name="gpa1">Enter Your Course Credit</string>
+    <string name="gpa2">Enter Your Course Grade</string>
+    <string name="gpa3">Add Course</string>
+    <string name="gpa4">See Your GPA</string>
+    <string name="gpa5">Here is your GPA</string>
+    <string name="erase">Erase</string>
+    <string name="save">Save</string>
+    <string name="new_task">New Task</string>
+    <string name="tasks">Tasks</string>
+</resources>

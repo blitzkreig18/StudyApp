@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResourcesActivity">
+
+    <Button
+        android:id="@+id/fetchFiles"
+        android:layout_width="282dp"
+        android:layout_centerHorizontal="true"
+        android:text="Fetch Files"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_bg"
+        android:layout_above="@id/selectFile"/>
+
+
+    <Button
+        android:id="@+id/selectFile"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/notification"
+        android:background="@drawable/round_bg"
+        android:text="Select File" />
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/upload"
+        android:layout_margin="30dp"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_bg"
+        android:text="Upload"
+        android:layout_below="@+id/notification"/>
+</RelativeLayout>
